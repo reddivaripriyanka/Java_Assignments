@@ -29,7 +29,7 @@ public class AddingDaysToDateTest {
 			addingDays=new AddingDaysToDate();
 			LocalDate date2 =  LocalDate.of(2017, 12, 14).plusDays(20);
 			String resultDate=addingDays.findNewDate(date2);
-			String expected="newdate 2016-11-03";
+			String expected="newdate 2018-01-03";
 			assertEquals(expected, resultDate);
 		}
 }
